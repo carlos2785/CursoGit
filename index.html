@@ -87,6 +87,22 @@
             </p>
             <li class="lista">Otros comandos git local y remoto </li>
             <img src="git-remoto-local.png" alt="git-remoto-local">
+            
+            <li class="lista">git log --all --graph --decorate --oneline </li>
+            <p>Permite ver de forma visual (--graph) los cambios en el proyecto, mostrando las ramas y los comits
+                de cada una de las ramas, merge, etc del histórico del proyecto.
+            </p>
+            <li class="lista">Se crea Alias </li>
+            <p>Se crea Alias arbol=git log --all --graph --decorate --oneline, este alias se puede usar en la carpeta del 
+                proyecto
+            </p>
+            <li class="lista">tags </li>
+            <p>git tag -a v0.1 -m "Haciendo un merge en el proyecto" 633741b, se crea el tags, el nombre es v0.1
+                comentario en tre comilllas y la refrencia el commit donde se ubica el tags
+
+                git show-ref --tags, este comando permite mostrar los tags
+                git push origin --tags, se tiene que hacer push para enviarlo al el repositorio de github
+            </p>
         </ol>
     </li>
     <div>
