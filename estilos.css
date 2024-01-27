@@ -22,3 +22,16 @@ p {
 .lista{
     font-weight: bold;
 }
+
+header {
+    background-color: #3498db; /* Color de fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Color del texto del encabezado */
+}
+
+header img {
+    width: 150px; /* Nuevo tamaño del logotipo */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 50%; /* Bordes redondeados para el logotipo */
+}
