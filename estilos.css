@@ -36,3 +36,12 @@ header img {
     border-radius: 50%; /* Bordes redondeados para el logotipo */
 }
 
+footer {
+    background-color: #0f317a; /* Cambia el color a tu preferencia */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
