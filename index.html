@@ -128,6 +128,33 @@
             <p>Este comando lo que permite es guardar temporalmente cambios en el repositorio local, cambiarse de rama
                 hacer otros ajustes y volver a la rama original para seguir trabajando en dichos cambios o eliminarlos
             </p>
+            <li class="lista">git clean --dry -run</li>
+            <p>Este comando lo que permite es borrar archivos untracked, es decir que no han sido agregados a git, pueden
+                ser copias creadas por error u otros archivos generados en ejecuciiones del código, etc.
+                Los archivos que estén dentro de .gitignore tampoco se tienen en cuenta para borrarlos
+            </p>
+            <li class="lista">git reflog</li>
+            <p>Este comando permite ver todo lo que ha pasado con el repositorio, por ello con este comando se puede ver cuál
+                fue el último HEAD que estaba funcionando y de esta manera poder hacer un reset para volver a dicho punto y
+                restablecer los archivos o código dañado.
+            </p>
+            <li class="lista">git reset</li>
+            <p>Nos permite devolvernos a punto de nuestro proyecto y recuperar los cambios que se hayan dado,
+                esto se hace indicando el HEAD consultado con el comando reflog.
+                puede ser hard o soft, git reset --hard #HEAD, git reset --soft #HEAD
+            </p>
+            <li class="lista">git commit --amend</li>
+            <p>Una vez realizado un commit, es posible modificarlo usando el comando git commit --amend, de esta manera 
+                los cambios que se hayan olvidado realizar se puede agregar al último comit ejecutado
+            </p>
+            <li class="lista">git grep -c palabra</li>
+            <p>Este comando permite hacer la búsqueda entre los archivos de la palabra especificada y retorna la cantidad
+                de veces y los archivos en los que se ha usado dicha palabra.
+            </p>
+            <li class="lista">git log -s palabra</li>
+            <p>Este comando permite hacer la búsqueda entre los commits realizados en el repositorio, retornando
+                la canidad de veces que se ha usado y los commits en los que se ha usado.
+            </p>
         </ol>
     </li>
     <div>
